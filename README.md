@@ -31,16 +31,6 @@ _Las tecnologias empleadas en este proyecto son:_
 * [CSS](https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS) - Estilos
 
 
-## Descripción del proyecto ✅
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-1. Está compuesto por un HTML de 176 lineas donde puse las funcionalidades de los botones, inputs y estilos.
-2. Está el documento llamado " *app.js* " Está la conexión entre en frontend (HTML) y la bd (Sqlite3).
-3. Está el documento llamado " *db.js* " están las funcionalidades de la BD.
-4. Está el documento llamado " *tareas.db* " se guarda lo que ingresemos en el input.
-5. Están los paquete a instalar peroq ue deberian estar por _default_ como: node_modules y .json
-
-
 ## Licencia
 
 Este proyecto está bajo la licencia [Nombre de la Licencia](LICENSE) - ve el archivo [LICENSE](LICENSE) para más detalles.
