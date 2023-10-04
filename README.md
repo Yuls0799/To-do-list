@@ -4,7 +4,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 >Este es un programa en su estado beta, es una lista de tareas minimalista. This is a beta of a minimalistic to do list.
-                     [ ![image](https://drive.google.com/file/d/1AhMjlYgiTfeONldt3hPL7o2UswlBGJb0/view?usp=sharing)
+                    
 >
 ##  Minimalist To-do list 📝
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
