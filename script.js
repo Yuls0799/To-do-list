@@ -173,4 +173,43 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+
+// Dentro de este evento "DOMContentLoaded" el boton modificar
+updateButton.addEventListener("click", function () {
+  var selectedTask = obtenerTareaSeleccionada();
+
+  if (selectedTask) {
+    var updatedTaskText = prompt("Editar tarea:", selectedTask.nombre);
+
+    if (updatedTaskText !== null) {
+      selectedTask.nombre = updatedTaskText;
+      actualizarLista();
+    }
+  }
+});
+
+// Función para obtener la tarea seleccionada
+function obtenerTareaSeleccionada() {
+  // Obtener la lista de elementos <li>
+  var taskElements = taskList.getElementsByTagName("li");
+
+  // Recorrer los elementos para encontrar la tarea seleccionada
+  for (var i = 0; i < taskElements.length; i++) {
+    var taskElement = taskElements[i];
+    if (taskElement.classList.contains("seleccionada")) {
+      // Extraer el nombre de la tarea seleccionada
+      var selectedTaskName = taskElement.textContent;
+      
+      // Buscar la tarea correspondiente en el array de tareas
+      for (var j = 0; j < tareas.length; j++) {
+        if (tareas[j].nombre === selectedTaskName) {
+          return tareas[j];
+        }
+      }
+    }
+  }
+  
+  return null; // Retorna null si no se encuentra ninguna tarea seleccionada
+}
+
 });
