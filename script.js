@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var input = document.getElementById("taskInput");
   var addButton = document.getElementById("addButton");
   var removeButton = document.getElementById("removeButton");
+  var update = document.getElementById("update");
   var taskList = document.getElementById("taskList");
 
   // Crear array para almacenar las tareas
